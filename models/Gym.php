@@ -28,9 +28,9 @@ class Gym
     public function createGym()
     {
         $host = 'localhost';
-        $user = 'admin';
-        $password = 'admin';
-        $database = 'gymspot';
+        $user = 'root';
+        $password = '';
+        $database = 'gymsport';
         $conn = mysqli_connect($host, $user, $password, $database);
 
         $query = "INSERT INTO gym(userid, name, city, type, address)

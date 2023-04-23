@@ -27,7 +27,7 @@ class User
         $host = 'localhost';
         $user = 'root';
         $password = '';
-        $database = 'gymspot';
+        $database = 'gymsport';
         $conn = mysqli_connect($host, $user, $password, $database);
 
         $query = "INSERT INTO user(email, username, password, nationality) 
