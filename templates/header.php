@@ -10,7 +10,7 @@ if (isset($_POST['logout'])) {
 ?>
 
 <head>
-    <title>GymSpot</title>
+    <title>GymSport</title>
     <link rel="icon" href="img/icon.png">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -49,11 +49,12 @@ if (isset($_POST['logout'])) {
 <body class="grey lighten-5">
     <nav class="grey darken-3">
         <div class="container">
-            <a href="index.php" class="title-text">GymSpot</a>
+            <a href="index.php" class="title-text">GymSport</a>
 
             <?php if ($loggedId != 0) : ?>
                 <ul class="right hide-on-small-and-down navul">
-                    <li>
+                <li>Hi, <?php echo $loggedUsername ?></li>
+                <li>
                         <a href="profile.php?id=<?php echo $loggedId ?>" class="btn white grey-text nav-text z-depth-0">
                             Your profile
                         </a>
