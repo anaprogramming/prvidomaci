@@ -51,7 +51,7 @@ mysqli_free_result($result);
 
 <?php else : ?>
 
-    <h1 class="center">You have not posted any comics!</h1>
+    <h1 class="center">You have not posted any gyms!</h1>
     <div class="center">
         <a href="add.php" class="btn center deep-purple darken-2">Return</a>
     </div>
