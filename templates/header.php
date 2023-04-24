@@ -46,7 +46,7 @@ if (isset($_POST['logout'])) {
     </style>
 </head>
 
-<body class="grey lighten-5">
+<body class="blue lighten-5">
     <nav class="grey darken-3">
         <div class="container">
             <a href="index.php" class="title-text">GymSport</a>
